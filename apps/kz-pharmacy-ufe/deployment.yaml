@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: kz-pharmacy-ufe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
         pod: kz-pharmacy-ufe-label    # tento riadok je len označenie štítku
