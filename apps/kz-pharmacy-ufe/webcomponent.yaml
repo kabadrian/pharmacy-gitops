@@ -1,0 +1,25 @@
+apiVersion: fe.milung.eu/v1
+kind: WebComponent
+metadata:
+  name: kz-pharmacy-ufe
+spec:
+  module-uri: http://kabac-zalabai-pharmacy-ufe.wac-hospital/build/ambulance-ufe.esm.js
+                     # module web komponentu pre tento mikroFE
+                     # - umiestnený v namespace wac-hospital
+  navigation:
+    - element: pharmacy-prescription-list   # element, ktorý bude vložený na stránku
+                                    # pri navigácii na zoznam čakajúcich
+      path: kabac-zalabai-pharmacy      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      attributes:
+      - name: api-base
+        value: http://localhost:5000/api
+      - name: ambulance-id
+        value: bobulova
+      title: Zoznam receptov xkabac - xzalabaij      # názov mikro aplikácie
+      details: Spravuje zoznam receptov vytvorenych lekarom
+  preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
+  proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
+                                    # musí byť táto hodnota nastavená na true
+  hash-suffix: v1alpha2             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
+                                    # sa mení názov URL pre modul a tým je možné predísť problémom
+                                    # s verziami vo vyrovnávacích pamätiach
