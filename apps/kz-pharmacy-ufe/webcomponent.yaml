@@ -9,7 +9,7 @@ spec:
   navigation:
     - element: pharmacy-prescription-list   # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
-      path: kabac-zalabai-pharmacy      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      path: kabac-zalabai-pharmacy-ufe      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       attributes:
       - name: api-base
         value: http://localhost:5000/api
