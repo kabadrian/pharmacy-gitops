@@ -3,7 +3,7 @@ kind: WebComponent
 metadata:
   name: kz-pharmacy-ufe
 spec:
-  module-uri: http://kabac-zalabai-pharmacy-ufe.wac-hospital/build/ambulance-ufe.esm.js
+  module-uri: http://kabac-zalabai-pharmacy-ufe.wac-hospital/build/kz-pharmacy-ufe.esm.js
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
