@@ -9,7 +9,7 @@ spec:
   navigation:
     - element: pharmacy-prescription-list   # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
-      path: kabac-zalabai-pharmacy-ufe      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      path: kabac-zalabai-pharmacy      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       attributes:
       - name: api-base
         value: http://localhost:5000/api
@@ -20,6 +20,6 @@ spec:
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
-  hash-suffix: v1alpha3             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
+  hash-suffix: v1alpha2             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
                                     # sa mení názov URL pre modul a tým je možné predísť problémom
                                     # s verziami vo vyrovnávacích pamätiach

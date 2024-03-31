@@ -15,7 +15,7 @@ spec:
         pod: kz-pharmacy-ufe-label    # štítky podu
     spec:
       containers:
-      - name: kz-pharmacy-ufe-container # meno kontaineru - v pod-e ich môže byť viac
+      - name: pharmacy-ufe-container # meno kontaineru - v pod-e ich môže byť viac
         image: kabadrian/pharmacy-ufe
         imagePullPolicy: Always
 
