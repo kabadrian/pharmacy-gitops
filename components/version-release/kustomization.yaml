@@ -17,7 +17,7 @@ replacements:
    source:
      version: v1
      kind: Deployment
-     name:  kz-ambulance-ufe-deployment
+     name:  kz-pharmacy-ufe-deployment
      fieldPath: spec.template.spec.containers.0.image
      options:
          delimiter: ':'
