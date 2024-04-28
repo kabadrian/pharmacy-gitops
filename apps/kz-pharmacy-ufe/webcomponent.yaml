@@ -12,7 +12,7 @@ spec:
       path: kabac-zalabai-pharmacy      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       attributes:
       - name: api-base
-        value: http://localhost:5000/api
+        value: http://localhost:30081/api
       - name: ambulance-id
         value: bobulova
       title: Zoznam receptov xkabac - xzalabaij      # názov mikro aplikácie

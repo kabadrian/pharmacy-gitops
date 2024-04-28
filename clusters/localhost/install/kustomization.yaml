@@ -9,7 +9,12 @@ commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 
 resources:
-- ../../../apps/kz-pharmacy-ufe
+  - ../../../apps/kz-pharmacy-ufe
+  - ../../../apps/kz-pharmacy-webapi
 
 components:
- - ../../../components/version-developers
+  - ../../../components/version-developers
+  - https://github.com/kabadrian/pharmacy-webapi//deployments/kustomize/components/mongodb
+
+patches:
+  - path: patches/ambulance-webapi.service.yaml

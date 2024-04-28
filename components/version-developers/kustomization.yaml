@@ -1,6 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
+- name: kabadrian/pharmacy-webapi
+  newName: kabadrian/pharmacy-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: kabadrian/pharmacy-ufe
   newName: kabadrian/pharmacy-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
   newTag: main.20240316.1239 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
