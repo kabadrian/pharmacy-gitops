@@ -5,6 +5,7 @@ resources:
 - namespace.yaml                            # namespace je tiež objektom pre tento klaster
 - ../../../infrastructure/ufe-controller   
 - ../../../infrastructure/fluxcd    # kustomization pre ufe-controller
+- ../../../infrastructure/envoy-gateway
 
 components:
  - ../../../components/version-developers
