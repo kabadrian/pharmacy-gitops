@@ -3,10 +3,10 @@ kind: Component
 images:
 - name: kabadrian/pharmacy-ufe
   newName: kabadrian/pharmacy-ufe
-  newTag: 1.1.2  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.3  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: kabadrian/pharmacy-webapi
   newName: kabadrian/ambulance-webapi
-  newTag: 1.1.1
+  newTag: 1.1.2
 replacements:
  - targets:
    - select:
