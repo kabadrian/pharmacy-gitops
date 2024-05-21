@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/kz-pharmacy-ufe
+ - ../../../apps/kz-pharmacy-webapi
 
 
 components:
