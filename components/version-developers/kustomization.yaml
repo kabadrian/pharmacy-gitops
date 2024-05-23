@@ -3,10 +3,10 @@ kind: Component
 images:
 - name: kabadrian/pharmacy-webapi
   newName: kabadrian/pharmacy-webapi # {"$imagepolicy":  "wac-hospital:pharmacy-webapi:name"}
-  newTag: main.20240427.2020 # {"$imagepolicy": "wac-hospital:pharmacy-webapi:tag"}
+  newTag: main.20240523.1039 # {"$imagepolicy": "wac-hospital:pharmacy-webapi:tag"}
 - name: kabadrian/pharmacy-ufe
   newName: kabadrian/pharmacy-ufe # {"$imagepolicy":  "wac-hospital:pharmacy-ufe:name"}
-  newTag: main.20240409.0931 # {"$imagepolicy": "wac-hospital:pharmacy-ufe:tag"}
+  newTag: main.20240521.1959 # {"$imagepolicy": "wac-hospital:pharmacy-ufe:tag"}
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
