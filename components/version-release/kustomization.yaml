@@ -6,7 +6,7 @@ images:
   newTag: 1.1.5  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: kabadrian/pharmacy-webapi
   newName: kabadrian/pharmacy-webapi
-  newTag: 1.1.4
+  newTag: 1.1.5
 replacements:
  - targets:
    - select:
